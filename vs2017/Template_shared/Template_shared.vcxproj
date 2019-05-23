@@ -24,6 +24,7 @@
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Templateshared</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>CatroModulo</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -118,7 +119,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>SLUG=Template_shared;BUILD_64;RACK_PLUGIN;RACK_PLUGIN_SHARED;ARCH_WIN;VERSION=0.6.1;_USE_MATH_DEFINES;USE_VST2;WIN32;NDEBUG;TEMPLATESHARED_EXPORTS;_WINDOWS;WIN32;_USRDLL;_CRT_SECURE_NO_DEPRECATE;_USING_V110_SDK71_;_HAS_EXCEPTIONS=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>SLUG=CatroModulo;BUILD_64;RACK_PLUGIN;RACK_PLUGIN_SHARED;ARCH_WIN;VERSION=0.6.6;_USE_MATH_DEFINES;USE_VST2;WIN32;NDEBUG;TEMPLATESHARED_EXPORTS;_WINDOWS;WIN32;_USRDLL;_CRT_SECURE_NO_DEPRECATE;_USING_V110_SDK71_;_HAS_EXCEPTIONS=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>..\..\..\..\include;..\..\..\..\include\dep</AdditionalIncludeDirectories>
       <DebugInformationFormat>None</DebugInformationFormat>
